@@ -28,7 +28,7 @@
       }
     }
   ],
-  "defaultProject": "complete-pachabel",
+  "defaultProject": "complete-pachelbel",
   "generators": {
     "@nx/react": {
       "application": {

@@ -1,5 +1,5 @@
 {
-  "name": "complete-pachabel",
+  "name": "complete-pachelbel",
   "$schema": "node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "./src",
   "projectType": "application",
@@ -11,7 +11,7 @@
       "defaultConfiguration": "production",
       "options": {
         "target": "web",
-        "outputPath": "dist/complete-pachabel",
+        "outputPath": "dist/complete-pachelbel",
         "main": "src/main.tsx",
         "tsConfig": "tsconfig.app.json",
         "rspackConfig": "rspack.config.js",
@@ -31,12 +31,12 @@
     "serve": {
       "executor": "@nx/rspack:dev-server",
       "options": {
-        "buildTarget": "complete-pachabel:build:development"
+        "buildTarget": "complete-pachelbel:build:development"
       },
       "configurations": {
         "development": {},
         "production": {
-          "buildTarget": "complete-pachabel:build:production"
+          "buildTarget": "complete-pachelbel:build:production"
         }
       }
     }
